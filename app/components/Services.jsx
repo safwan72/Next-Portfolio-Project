@@ -15,7 +15,7 @@ const Services = () => {
         Excepturi, sapiente dignissimos.
       </p>
 
-      <div className="grid grid-cols-4 gap-6 my-10">
+      <div className="grid grid-cols-auto gap-6 my-10">
         {serviceData?.map((service, index) => (
           <div
             key={index}
